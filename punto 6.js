@@ -5,8 +5,8 @@ function mayor(a, b) {
     return b;
 }
 
-let numeroA = parseInt(prompt("Ingrese el primer número:"));
-let numeroB = parseInt(prompt("Ingrese el segundo número:"));
+let nA = parseInt(prompt("Ingrese el primer número:"));
+let nB = parseInt(prompt("Ingrese el segundo número:"));
 
-alert("El mayor es: " + mayor(numeroA, numeroB));
-console.log("El mayor es:", mayor(numeroA, numeroB));
+alert("El mayor es: " + mayor(nA, nB));
+console.log("El mayor es:", mayor(nA, nB));
