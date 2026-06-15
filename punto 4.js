@@ -5,9 +5,9 @@ function Par(numero) {
     return 0;
 }
 
-let numeroParImpar = parseInt(prompt("Ingrese un número:"));
+let nParImp = parseInt(prompt("Ingrese un número:"));
 
-if (Par(numeroParImpar) === 1) {
+if (Par(nParImp) === 1) {
     alert("Par");
     console.log("Par");
 } else {
