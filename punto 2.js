@@ -1,4 +1,4 @@
-function promedioPares(n) {
+function Pares(n) {
     let suma = 0;
     let cantidad = 0;
 
@@ -17,6 +17,6 @@ function promedioPares(n) {
 }
 
 let n = parseInt(prompt("Ingrese un número para calcular el promedio de los pares mayores a 10:"));
-let promedio = promedioPares(n);
+let promedio = Pares(n);
 alert("Promedio: " + promedio);
 console.log("Promedio:", promedio);
